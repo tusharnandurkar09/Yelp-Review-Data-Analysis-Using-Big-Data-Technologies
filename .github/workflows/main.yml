@@ -3,7 +3,7 @@ name: Run AWS Glue Job on Push
 on:
   push:
     branches:
-      - tushar  # Change this to your working branch if needed
+      - main  # Change this to your working branch if needed
 
 jobs:
   deploy-glue-job:
