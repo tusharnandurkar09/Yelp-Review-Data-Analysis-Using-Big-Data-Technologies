@@ -48,4 +48,4 @@ jobs:
 
     - name: Start Glue Crawler
       run: |
-        aws glue start-crawler --name yelp-crawler
+        aws glue start-crawler --name my-ci-cd-crawler
