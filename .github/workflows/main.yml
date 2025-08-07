@@ -5,7 +5,7 @@ name: Deploy Glue Job and Crawler
 on:
   push:
     branches:
-      - tushar
+      - main
 
 jobs:
   deploy:
