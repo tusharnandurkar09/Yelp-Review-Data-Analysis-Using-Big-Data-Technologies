@@ -5,7 +5,7 @@ variable "region" {
 
 #declare a bucket name
 variable "bucket_name_prefix" {
-  default = "fullautomatedbucketterraform"
+  default = "fullautomatedbucketterraform777"
 }
 
 
@@ -21,5 +21,5 @@ variable "glue_crawler_name" {
 
 #declare a script path
 variable "script_s3_path" {
-  default = "s3://fullautomatedbucketterraform/scripts/my-etl-script.py"
+  default = "s3://fullautomatedbucketterraform777/scripts/my-etl-script.py"
 }
