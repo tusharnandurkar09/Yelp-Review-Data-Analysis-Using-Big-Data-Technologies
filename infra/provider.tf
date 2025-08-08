@@ -1,3 +1,3 @@
 provider "aws" {
-  region = var.aws_region # <-- region comes from variables.tf
+  region = var.region # <-- region comes from variables.tf
 }
