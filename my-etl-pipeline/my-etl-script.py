@@ -78,7 +78,7 @@ final_df = final_df.withColumn("year", year("r_date"))\
 final_df = final_df.drop("r_date", "categories")
 
 # define and validate output path
-output_path = "s3://terraformoutputjob/output/"  # Set your actual S3 output path
+output_path = "s3://my-cicd-output/output/"  # Set your actual S3 output path
 
 if not output_path.strip():
     raise ValueError("Output path cannot be empty. Please set a valid S3 path.")
